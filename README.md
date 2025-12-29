@@ -1,6 +1,6 @@
 # Machine Learning Practice
 
-A collection of Jupyter notebooks covering fundamental machine learning concepts including EDA, classification, and regression.
+A collection of Jupyter notebooks covering fundamental machine learning concepts including EDA, classification, regression, deep learning for computer vision, natural language processing, and business analytics.
 
 ## Setup
 
@@ -25,8 +25,12 @@ ml/
 ├── 03-tahabilder-linear-regression-from-scratch.ipynb       # Linear regression implementation
 ├── 04-tahabilder-titanic-survival-prediction.ipynb          # Titanic survival classification
 ├── 05-tahabilder-california-housing-regression.ipynb        # Housing price regression
+├── 06-tahabilder-cats-vs-dogs-cnn-image-classification.ipynb # CNN image classification
+├── 07-tahabilder-sentiment-analysis-twitter.ipynb           # NLP sentiment analysis on tweets
+├── 08-tahabilder-customer-churn-prediction.ipynb            # Customer churn prediction
 ├── housing.csv                                              # California housing dataset
 ├── Student_Performance.csv                                  # Student performance dataset
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv                     # Telco customer churn dataset
 ├── requirements.txt                                         # Python dependencies
 └── README.md
 ```
@@ -40,6 +44,9 @@ ml/
 | 03 | Linear Regression | From-scratch implementation, gradient descent |
 | 04 | Titanic Prediction | Logistic Regression, ensemble methods |
 | 05 | Housing Regression | Ridge, Lasso, Random Forest, Gradient Boosting |
+| 06 | Cats vs Dogs CNN | CNNs, Transfer Learning (VGG16), Data Augmentation |
+| 07 | Sentiment Analysis | NLP, Text Preprocessing, TF-IDF, LSTM, Naive Bayes |
+| 08 | Customer Churn | SMOTE, Class Weights, XGBoost, Business Metrics |
 
 ## Libraries Used
 
@@ -48,3 +55,9 @@ ml/
 - **matplotlib/seaborn** - Visualization
 - **scikit-learn** - ML algorithms
 - **scipy** - Statistical functions
+- **tensorflow/keras** - Deep learning and CNNs
+- **opencv/pillow** - Image processing
+- **nltk** - Natural language processing
+- **wordcloud** - Text visualization
+- **imbalanced-learn** - Handling imbalanced datasets (SMOTE)
+- **xgboost** - Gradient boosting algorithms
